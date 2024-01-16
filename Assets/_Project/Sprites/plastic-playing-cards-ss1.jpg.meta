@@ -1,0 +1,1323 @@
+fileFormatVersion: 2
+guid: f2256e33bccce144fb105ef77275bfda
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52dd6ee829c086419c583282119cf38
+      internalID: 1359483982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e688e2ebf74085a4abe57da5776deb9b
+      internalID: -2096782892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b70bf22aebd747a922c2438ef1681
+      internalID: -1701333786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de297c0af61dc74cb8d927e5b27535f
+      internalID: 1373634803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2465119110fda1049af6096bfafd5686
+      internalID: 139075217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_5
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c1b5a60f92994facdb3b52f93c062
+      internalID: 1518517044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_6
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc2468f5119fa44bb80c27eb5ed68e
+      internalID: -183237795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_7
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5d29c3778c7804abfd971c851515a1
+      internalID: -44607900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_8
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 815.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c2ec006088e3249b889435760e1ec9
+      internalID: 1920868389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06401a8abbae7440be58e8b67f7e748
+      internalID: -600489040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c586a08d71eb4ab6ac6753e7f1afe
+      internalID: -671957197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e141990a2d09147b5966a2fc34cb29
+      internalID: -1761606229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5871e2d8dd98bcd43b96bde8a9be6f77
+      internalID: 234082505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19653d260489d4a89cec11201440d4
+      internalID: -497917807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_14
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e3781f03de72439f2eabadd3179a4
+      internalID: 601105330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_15
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd678a18950b244a4d6cb61e859784
+      internalID: 488859401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_16
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d2801eb8c7971498ea8c2c77e984a4
+      internalID: -1918661337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 652.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6c1faf8fea2c24d80b8a745436100d
+      internalID: -131683438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a5fb14f12d866469123c49f945aa96
+      internalID: 862472598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8199984da20f8ca499f2aff34f0adec1
+      internalID: -1184748381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1757f05ea304804ab991376b62fabf5
+      internalID: 1379715632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d762bac852a947e408206c7249e2c06c
+      internalID: -450885560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_22
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a19213ebec96f441979d9b7bfef8a94
+      internalID: 671779691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_23
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0380494acde5e4fb62934d50afd997
+      internalID: 939454732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_24
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f245830048ed03408a2a3b9078dfa69
+      internalID: -123515555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_25
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065bf5615eaa33e4995b77e369febeae
+      internalID: 819033326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_26
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 489.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25df12126c40d8b40bcc80a2f8e1341c
+      internalID: -1976477613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec55f8ddce3564aa9fc8e7e48f3dde
+      internalID: 1380660484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_28
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2379958e01dd35c488a7069e7007b638
+      internalID: -713143147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228bad73a52bcc14f96786513792d5b2
+      internalID: -992100608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_30
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b6b5433e5ce440bac2c71d4f01434
+      internalID: 1033937308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_31
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b544262a778656b48907ffa8b19a52b2
+      internalID: 19413387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_32
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daebefb545ffe64b9d11ee1b3930c30
+      internalID: -21060804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_33
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6142eaed1ac54d9419b19baabf7b5fe2
+      internalID: -1625509951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_34
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c236ad456ebe42f488e29af523ac44d5
+      internalID: 1950798048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_35
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 326.8333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4d8287c90f22418edc7af46003313
+      internalID: -759239081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61ebd8116038524db2e9d618e9859b9
+      internalID: -39744231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd982ec0ddef8740aa46501df601d2a
+      internalID: -1794915564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_38
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e95e0bde4bf9ef4dbeb76e53f47b508
+      internalID: 90362012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_39
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dea51e00e033640a0d7225f305b9d3
+      internalID: -820454200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_40
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60c314cc287f8449ef8c26ee4082e3
+      internalID: 1375066432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_41
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8baef2550ef4b4b9b99b771238fde9
+      internalID: -1497420650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_42
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d4f35adc8811c45a7c3a2a31b9ad0a
+      internalID: -1030220542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_43
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c7680df5730ce4b85e20610ee7398e
+      internalID: 991750482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_44
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 163.83333
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f03cfa2ca1624b914b263591506d4
+      internalID: -1950474417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63671174fb453cf4daa9d316495b9d53
+      internalID: 1204952116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_46
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6360a322bf676c24ba6f443c0bbf1cc5
+      internalID: -223519726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_47
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eacbf03cf8fa9428667c76cfc45767
+      internalID: -1746523950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_48
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea00cc9c6e844542a5f7c4b0a20c087
+      internalID: 1521181936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_49
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16238e57621eb0348b9f194117fbec5a
+      internalID: -1194858374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_50
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df1b0909e280c44791927577a8860df
+      internalID: -1027524511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_51
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b95b513f7eaf34ca241217b7e87070
+      internalID: -659369839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a8f12b74f826e40b70016e8c9575f6
+      internalID: 1702463449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plastic-playing-cards-ss1_53
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 0.83332825
+        width: 109.333336
+        height: 163.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a98538f10220004da85fceaa7e5cac3
+      internalID: -1763671302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e4c9650c539ef4f4aac7ea890ceafa5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      plastic-playing-cards-ss1_39: -820454200
+      plastic-playing-cards-ss1_44: -1950474417
+      plastic-playing-cards-ss1_17: -131683438
+      plastic-playing-cards-ss1_15: 488859401
+      plastic-playing-cards-ss1_30: 1033937308
+      plastic-playing-cards-ss1_11: -1761606229
+      plastic-playing-cards-ss1_21: -450885560
+      plastic-playing-cards-ss1_52: 1702463449
+      plastic-playing-cards-ss1_1: -2096782892
+      plastic-playing-cards-ss1_29: -992100608
+      plastic-playing-cards-ss1_31: 19413387
+      plastic-playing-cards-ss1_5: 1518517044
+      plastic-playing-cards-ss1_19: -1184748381
+      plastic-playing-cards-ss1_36: -39744231
+      plastic-playing-cards-ss1_8: 1920868389
+      plastic-playing-cards-ss1_6: -183237795
+      plastic-playing-cards-ss1_37: -1794915564
+      plastic-playing-cards-ss1_13: -497917807
+      plastic-playing-cards-ss1_27: 1380660484
+      plastic-playing-cards-ss1_0: 1359483982
+      plastic-playing-cards-ss1_10: -671957197
+      plastic-playing-cards-ss1_46: -223519726
+      plastic-playing-cards-ss1_26: -1976477613
+      plastic-playing-cards-ss1_14: 601105330
+      plastic-playing-cards-ss1_49: -1194858374
+      plastic-playing-cards-ss1_7: -44607900
+      plastic-playing-cards-ss1_38: 90362012
+      plastic-playing-cards-ss1_53: -1763671302
+      plastic-playing-cards-ss1_42: -1030220542
+      plastic-playing-cards-ss1_4: 139075217
+      plastic-playing-cards-ss1_16: -1918661337
+      plastic-playing-cards-ss1_25: 819033326
+      plastic-playing-cards-ss1_23: 939454732
+      plastic-playing-cards-ss1_3: 1373634803
+      plastic-playing-cards-ss1_9: -600489040
+      plastic-playing-cards-ss1_12: 234082505
+      plastic-playing-cards-ss1_34: 1950798048
+      plastic-playing-cards-ss1_50: -1027524511
+      plastic-playing-cards-ss1_24: -123515555
+      plastic-playing-cards-ss1_51: -659369839
+      plastic-playing-cards-ss1_47: -1746523950
+      plastic-playing-cards-ss1_18: 862472598
+      plastic-playing-cards-ss1_20: 1379715632
+      plastic-playing-cards-ss1_41: -1497420650
+      plastic-playing-cards-ss1_45: 1204952116
+      plastic-playing-cards-ss1_32: -21060804
+      plastic-playing-cards-ss1_35: -759239081
+      plastic-playing-cards-ss1_33: -1625509951
+      plastic-playing-cards-ss1_2: -1701333786
+      plastic-playing-cards-ss1_43: 991750482
+      plastic-playing-cards-ss1_28: -713143147
+      plastic-playing-cards-ss1_22: 671779691
+      plastic-playing-cards-ss1_40: 1375066432
+      plastic-playing-cards-ss1_48: 1521181936
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

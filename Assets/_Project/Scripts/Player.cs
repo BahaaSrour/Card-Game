@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public abstract class Player : MonoBehaviour
 {
     public List<Card> myCards;
     public ScriptableEvent<Card> OnSelectingCard;
@@ -29,9 +29,5 @@ public class Player : MonoBehaviour
             card.DebugCard();
         }
     }
-
-    public virtual void StartTurn()
-    {
-
-    }
+    public abstract void StartTurn();
 }
