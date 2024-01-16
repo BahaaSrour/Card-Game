@@ -23,6 +23,7 @@ public class NormalCardGame : Board
     public override void StartNewGame()
     {
         CreateNewTable();
+        Wazza3Lkroot();
         sequentialRound.initRound(0);
     }
 
