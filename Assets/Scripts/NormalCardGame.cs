@@ -6,23 +6,30 @@ public class NormalCardGame : Board
 {
 
     public IRound sequentialRound;
-    int theLastRoundWinninngPlayer;
+    public ScriptableEvent<Card> OnSelectingCard;
 
-
+    int theLastRoundWinninngPlayer = 0;
     private void Start()
     {
         theLastRoundWinninngPlayer = 0;
         sequentialRound = GetComponent<IRound>();
+        OnSelectingCard.addListener(AddCardToTheBoard);
+
+        StartNewGame();
     }
 
 
     [ContextMenu("Start new Game")]
-    public void StartNewGame()
+    public override void StartNewGame()
     {
-        base.CreateNewTable();
-        base.Wazza3Lkroot();
+        CreateNewTable();
         sequentialRound.initRound(0);
     }
 
-
+    public void AddCardToTheBoard(Card card)
+    {
+        selectedCards.Add(card);
+        sequentialRound.ChangeTurn();
+        players[sequentialRound._currentTurn].StartTurn();
+    }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IRound
 {
-    void initRound(int startTurn=0);
+    void initRound(int startTurn = 0);
     void ChangeTurn();
     public int _currentTurn { get; }
 }

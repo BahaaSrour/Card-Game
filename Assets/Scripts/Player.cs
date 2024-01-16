@@ -6,33 +6,32 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public List<Card> myCards;
-
+    public ScriptableEvent<Card> OnSelectingCard;
     private void Start()
     {
         myCards = new List<Card>();
     }
-
     public void GetCard(Card card)
     {
-        
         myCards.Add(card);
     }
-
-    public Card SelectCardToPlay(Card card)
+    public void SelectCardToPlay(Card card)
     {
         if (myCards.Contains(card))
-            return card;
-
-        //TODO:: player played Unvalid car need to play another card
-            return null;
+            OnSelectingCard.Fire(card);
     }
 
     [ContextMenu("Debug cards")]
     public void debugMyCards()
     {
-        foreach (Card card in myCards) 
+        foreach (Card card in myCards)
         {
             card.DebugCard();
         }
+    }
+
+    public virtual void StartTurn()
+    {
+
     }
 }

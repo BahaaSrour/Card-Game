@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class SequentialRound : MonoBehaviour, IRound
 {
-    int _1stTurn;
     int _numberOfPlayers;
     public int _currentTurn { get; private set; }
 
     public void initRound(int startTurn)
     {
-       _1stTurn =_currentTurn= startTurn;
+        _currentTurn = startTurn;
     }
 
     public void ChangeTurn()
