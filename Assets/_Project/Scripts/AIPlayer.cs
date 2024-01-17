@@ -6,6 +6,7 @@ public class AIPlayer : Player
 {
     public override void StartTurn()
     {
-
+        Debug.Log(gameObject.name);
+        SelectCardToPlay(myCards[0]);
     }
 }

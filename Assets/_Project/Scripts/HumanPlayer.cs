@@ -7,10 +7,13 @@ public class HumanPlayer : Player
 {
     bool isPLayerTurn;
     public ScriptableEvent OnPlayerRecieveCards;
+
     public ScriptableEvent<List<Card>> OnDrawPlayerCards;
+    public ScriptableEvent<Card> OnUICardSelected;
     private void Awake()
     {
         OnPlayerRecieveCards.addListener(DrawCardsInUI);
+        OnUICardSelected.addListener(SelectCardToPlay);
     }
     public override void StartTurn()
     {

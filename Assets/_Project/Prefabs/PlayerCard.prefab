@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9116479068133210902}
   - component: {fileID: 9116479068133210888}
   - component: {fileID: 7003764469673607867}
+  - component: {fileID: 8558733044165276480}
   m_Layer: 5
   m_Name: PlayerCard
   m_TagString: Untagged
@@ -121,7 +122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9116479068133210902}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8558733044165276480}
+        m_TargetAssemblyTypeName: PlayerCardSelector, Assembly-CSharp
+        m_MethodName: OncardSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7003764469673607867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,3 +149,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 9116479068133210902}
   cardshape: {fileID: 11400000, guid: 62fc784ceb0c58a41aed13bc693fa62a, type: 2}
+--- !u!114 &8558733044165276480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116479068133210900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a50fc4217ac5c4cbcf806b67f4efc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardDrawer: {fileID: 7003764469673607867}
+  OnUICardSelected: {fileID: 11400000, guid: f2c5a7426f300894f979c46ccde1854f, type: 2}

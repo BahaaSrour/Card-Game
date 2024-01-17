@@ -7,8 +7,10 @@ public class CardDrawer : MonoBehaviour
 {
     public Image image;
     public Cardshape cardshape;
+    public Card _card { get; private set; }
     public void DrawCard(Card card)
     {
+        _card = card;   
         image.sprite = cardshape.gameCards[(((int)card._suit)*13)+(int)card._rank].sprite;
     }
 }

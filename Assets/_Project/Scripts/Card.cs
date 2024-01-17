@@ -9,7 +9,6 @@ public class Card
 {
     public CardRank _rank;
     public CardSuit _suit;
-    public bool Selected;
 
     public Card(CardRank rank, CardSuit shape)
     {
@@ -27,10 +26,6 @@ public class Card
         else if ((_1st._suit == _2nd._suit))
             return   (_1st._rank > _2nd._rank);
         return false;
-    }
-    public void SelectCard()
-    {
-        Selected = !Selected;
     }
 
     public void DebugCard()

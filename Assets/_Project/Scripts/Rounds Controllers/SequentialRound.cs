@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SequentialRound : MonoBehaviour, IRound
 {
-    int _numberOfPlayers;
+    int _numberOfPlayers=4;
     public int _currentTurn { get; private set; }
 
     public void initRound(int startTurn)
