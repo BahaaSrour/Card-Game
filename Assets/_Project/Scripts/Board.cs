@@ -13,12 +13,12 @@ public abstract class Board : MonoBehaviour
     public List<Card> selectedCards = new List<Card>();
 
     public abstract void StartNewGame();
+    public abstract void CalculateWinner();
     public virtual void CreateNewTable()
     {
         table.CreateTable();
         table.ShuffleCards();
     }
-
     public virtual void Wazza3Lkroot()
     {
         //var x = table.cards.Count / players.Length;
@@ -30,5 +30,4 @@ public abstract class Board : MonoBehaviour
             }
         }
     }
-
 }

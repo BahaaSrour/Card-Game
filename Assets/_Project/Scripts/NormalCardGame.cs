@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class NormalCardGame : Board
@@ -27,17 +28,21 @@ public class NormalCardGame : Board
         Wazza3Lkroot();
         OnPlayerRecieveCards.Fire();
         sequentialRound.initRound(0);
+        players[sequentialRound._currentTurn].StartTurn();
     }
-    int x=0;
+    int x = 0;
     public void AddCardToTheBoard(Card card)
     {
         selectedCards.Add(card);
-        sequentialRound.ChangeTurn();
-        players[sequentialRound._currentTurn].StartTurn();
         x++;
-        if(x%4==0) 
+        if (x % 4 == 0)
         {
             OnRoundEnds();
+        }
+        else
+        {
+            sequentialRound.ChangeTurn();
+            players[sequentialRound._currentTurn].StartTurn();
         }
     }
 
@@ -51,6 +56,24 @@ public class NormalCardGame : Board
             return;
         }
         Debug.Log("Round Ended");
-        //(((int)card._suit) * 13) + (int)card._rank
+        CalculateWinner();
+        selectedCards.Clear();
+        sequentialRound.initRound(theLastRoundWinninngPlayer);
+        players[sequentialRound._currentTurn].StartTurn();
+    }
+
+    public override void CalculateWinner()
+    {
+        int winnerIndex = 0;
+        var highestnumber = (((int)selectedCards[winnerIndex]._suit) * 13) + (int)selectedCards[winnerIndex]._rank;
+        for (int i = 0; i < 4; i++)
+        {
+            var x = (((int)selectedCards[i]._suit) * 13) + (int)selectedCards[i]._rank;
+            if (highestnumber < x)
+            {
+                winnerIndex = i;
+                highestnumber = x;
+            }
+        }
     }
 }

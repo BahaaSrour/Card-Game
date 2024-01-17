@@ -6,6 +6,11 @@ public class AIPlayer : Player
 {
     public override void StartTurn()
     {
+        StartCoroutine(playCard());
+    }
+    IEnumerator playCard()
+    {
+        yield return new WaitForSeconds(3);
         Debug.Log(gameObject.name);
         SelectCardToPlay(myCards[0]);
     }
