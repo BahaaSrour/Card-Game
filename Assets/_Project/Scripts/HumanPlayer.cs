@@ -10,6 +10,7 @@ public class HumanPlayer : Player
 
     public ScriptableEvent<List<Card>> OnDrawPlayerCards;
     public ScriptableEvent<Card> OnUICardSelected;
+    public ScriptableEvent PlayerTurn;
     private void Awake()
     {
         OnPlayerRecieveCards.addListener(DrawCardsInUI);
@@ -17,7 +18,7 @@ public class HumanPlayer : Player
     }
     public override void StartTurn()
     {
-
+        PlayerTurn.Fire();
     }
 
     public void DrawCardsInUI()

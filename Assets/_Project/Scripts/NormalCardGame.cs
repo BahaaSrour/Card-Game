@@ -53,10 +53,10 @@ public class NormalCardGame : Board
         if (rounds == 13)
         {
             EndGame();
-            Debug.Log("ended");
+            //Debug.Log("ended");
             return;
         }
-        Debug.Log("Round Ended");
+        //Debug.Log("Round Ended");
         CalculateWinner();
         selectedCards.Clear();
         sequentialRound.initRound(theLastRoundWinninngPlayer);
@@ -88,16 +88,14 @@ public class NormalCardGame : Board
         int highestwinningRoundcount = 0;
         for (int i = 0; i < players.Length; i++)
         {
-            Debug.Log($" Player {i} score is {players[i].wonRounds}");
+            //Debug.Log($" Player {i} score is {players[i].wonRounds}");
             if (players[i].wonRounds > highestwinningRoundcount)
             {
                 highestwinningRoundcount = players[i].wonRounds;
                 winnerIndex = i;
             }
         }
-
-
-            Debug.Log($"---------Winnnerrrr--- Player {winnerIndex} is the winner `\n` score is {players[winnerIndex].wonRounds}");
+            //Debug.Log($"---------Winnnerrrr--- Player {winnerIndex} is the winner `\n` score is {players[winnerIndex].wonRounds}");
     }
 
     public void Winner()
