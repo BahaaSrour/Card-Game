@@ -7,7 +7,7 @@ public abstract class Player : MonoBehaviour
 {
     public List<Card> myCards;
     public ScriptableEvent<Card> OnSelectingCard;
-
+    public int wonRounds { set; get; }
     private void Start()
     {
         myCards = new List<Card>();

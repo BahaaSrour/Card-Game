@@ -52,6 +52,7 @@ public class NormalCardGame : Board
         rounds++;
         if (rounds == 13)
         {
+            EndGame();
             Debug.Log("ended");
             return;
         }
@@ -61,7 +62,6 @@ public class NormalCardGame : Board
         sequentialRound.initRound(theLastRoundWinninngPlayer);
         players[sequentialRound._currentTurn].StartTurn();
     }
-
     public override void CalculateWinner()
     {
         int winnerIndex = 0;
@@ -75,5 +75,33 @@ public class NormalCardGame : Board
                 highestnumber = x;
             }
         }
+        selectedCards.Clear();
+        theLastRoundWinninngPlayer = (theLastRoundWinninngPlayer + winnerIndex) % 4;
+
+
+        players[theLastRoundWinninngPlayer].wonRounds++;
+    }
+
+    public void EndGame()
+    {
+        int winnerIndex = 0;
+        int highestwinningRoundcount = 0;
+        for (int i = 0; i < players.Length; i++)
+        {
+            Debug.Log($" Player {i} score is {players[i].wonRounds}");
+            if (players[i].wonRounds > highestwinningRoundcount)
+            {
+                highestwinningRoundcount = players[i].wonRounds;
+                winnerIndex = i;
+            }
+        }
+
+
+            Debug.Log($"---------Winnnerrrr--- Player {winnerIndex} is the winner `\n` score is {players[winnerIndex].wonRounds}");
+    }
+
+    public void Winner()
+    {
+        
     }
 }

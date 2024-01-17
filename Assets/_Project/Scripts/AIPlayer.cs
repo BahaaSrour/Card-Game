@@ -10,7 +10,7 @@ public class AIPlayer : Player
     }
     IEnumerator playCard()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(.5f);
         Debug.Log(gameObject.name);
         SelectCardToPlay(myCards[0]);
     }
