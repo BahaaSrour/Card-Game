@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class Card : IComparer<Card>
+public class Card
 {
     public CardRank _rank;
     public CardSuit _suit;
@@ -34,12 +34,16 @@ public class Card : IComparer<Card>
         Debug.Log($" suit ={_rank} ,{_suit}");
     }
 
+}
+
+public class CompareCardDesending : IComparer<Card>
+{
+
     public int Compare(Card x, Card y)
     {
         return y.cardValue - x.cardValue;
     }
 }
-
 public enum CardRank
 {
     Two ,

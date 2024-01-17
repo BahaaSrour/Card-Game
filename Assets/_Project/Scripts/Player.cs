@@ -43,8 +43,10 @@ public abstract class Player : MonoBehaviour
     }
     public abstract void StartTurn();
 
+    CompareCardDesending compareCardDesending;
     public void SortMyCards()
     {
-        myCards.Sort(myCards[0]);
+        compareCardDesending = new CompareCardDesending();
+        myCards.Sort(compareCardDesending);
     }
 }
