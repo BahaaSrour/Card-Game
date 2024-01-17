@@ -51,6 +51,7 @@ MonoBehaviour:
   maxCardForPlayer: 13
   selectedCards: []
   OnSelectingCard: {fileID: 11400000, guid: febeed513ee6d97489b3b7effb4d228e, type: 2}
+  OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
 --- !u!114 &1032674895519586206
 MonoBehaviour:
   m_ObjectHideFlags: 0

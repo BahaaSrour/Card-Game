@@ -41,7 +41,7 @@ public class Card
 
 public enum CardRank
 {
-    Two = 1,
+    Two ,
     Three,
     Four,
     Five,
@@ -57,7 +57,7 @@ public enum CardRank
 }
 public enum CardSuit
 {
-    Clubs = 1,
+    Clubs ,
     Diamonds,
     Hearts,
     Spades

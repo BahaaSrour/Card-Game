@@ -7,6 +7,7 @@ public class NormalCardGame : Board
 
     public IRound sequentialRound;
     public ScriptableEvent<Card> OnSelectingCard;
+    public ScriptableEvent OnPlayerRecieveCards;
 
     int theLastRoundWinninngPlayer = 0;
     private void Start()
@@ -24,6 +25,7 @@ public class NormalCardGame : Board
         sequentialRound = GetComponent<IRound>();
         CreateNewTable();
         Wazza3Lkroot();
+        OnPlayerRecieveCards.Fire();
         sequentialRound.initRound(0);
     }
 

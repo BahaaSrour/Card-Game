@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80a9582f461e23b40bb2c1c29e7e4af2, type: 3}
-  m_Name: OnCardSelection
+  m_Script: {fileID: 11500000, guid: bfeeb2255d6f4f8449557191e0c14741, type: 3}
+  m_Name: OnDrawPlayerCards
   m_EditorClassIdentifier: 
