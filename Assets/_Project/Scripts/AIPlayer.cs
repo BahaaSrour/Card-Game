@@ -11,7 +11,7 @@ public class AIPlayer : Player
     }
     IEnumerator playCard()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(2f);
         SelectCardToPlay(myCards[0]);
     }
 }

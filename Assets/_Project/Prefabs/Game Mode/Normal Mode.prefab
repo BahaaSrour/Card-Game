@@ -53,6 +53,7 @@ MonoBehaviour:
   OnSelectingCard: {fileID: 11400000, guid: febeed513ee6d97489b3b7effb4d228e, type: 2}
   OnAnimateCard: {fileID: 11400000, guid: 0323b6fa71b2b9b45b941297d9254e28, type: 2}
   OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
+  OnEndRound: {fileID: 11400000, guid: 2571470809d743d46bd3280e64ba068e, type: 2}
 --- !u!114 &1032674895519586206
 MonoBehaviour:
   m_ObjectHideFlags: 0
