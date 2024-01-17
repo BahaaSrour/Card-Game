@@ -7,11 +7,12 @@ public abstract class Player : MonoBehaviour
 {
     public List<Card> myCards;
     public ScriptableEvent<Card> OnSelectingCard;
+    public ScriptableEvent OnPlayerRecieveCards;
     public int wonRounds { set; get; }
-    private void Start()
+    private void Awake()
     {
         myCards = new List<Card>();
-
+        OnPlayerRecieveCards.addListener(SortMyCards);
     }
     public void GetCard(Card card)
     {
@@ -41,4 +42,9 @@ public abstract class Player : MonoBehaviour
         myCards.Remove(card);
     }
     public abstract void StartTurn();
+
+    public void SortMyCards()
+    {
+        myCards.Sort(myCards[0]);
+    }
 }

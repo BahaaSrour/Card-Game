@@ -468,6 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myCards: []
   OnSelectingCard: {fileID: 11400000, guid: febeed513ee6d97489b3b7effb4d228e, type: 2}
+  OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
 --- !u!1 &270086720
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myCards: []
   OnSelectingCard: {fileID: 11400000, guid: febeed513ee6d97489b3b7effb4d228e, type: 2}
+  OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
 --- !u!1 &665708120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +1940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myCards: []
   OnSelectingCard: {fileID: 11400000, guid: febeed513ee6d97489b3b7effb4d228e, type: 2}
+  OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
 --- !u!1 &884471522
 GameObject:
   m_ObjectHideFlags: 0

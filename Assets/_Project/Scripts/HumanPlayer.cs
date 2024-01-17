@@ -6,12 +6,11 @@ using UnityEngine.WSA;
 public class HumanPlayer : Player
 {
     bool isPLayerTurn;
-    public ScriptableEvent OnPlayerRecieveCards;
-
     public ScriptableEvent<List<Card>> OnDrawPlayerCards;
     public ScriptableEvent<Card> OnUICardSelected;
     public ScriptableEvent PlayerTurn;
-    private void Awake()
+ 
+    private void Start()
     {
         OnPlayerRecieveCards.addListener(DrawCardsInUI);
         OnUICardSelected.addListener(SelectCardToPlay);

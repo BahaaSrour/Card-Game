@@ -5,15 +5,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class Card
+public class Card : IComparer<Card>
 {
     public CardRank _rank;
     public CardSuit _suit;
-
+    public int cardValue;
     public Card(CardRank rank, CardSuit shape)
     {
         _rank = rank;
         _suit = shape;
+        cardValue = ((int)_suit * 13) + (int)_rank;
     }
     public bool Equals(Card other)
     {
@@ -31,6 +32,11 @@ public class Card
     public void DebugCard()
     {
         Debug.Log($" suit ={_rank} ,{_suit}");
+    }
+
+    public int Compare(Card x, Card y)
+    {
+        return y.cardValue - x.cardValue;
     }
 }
 
