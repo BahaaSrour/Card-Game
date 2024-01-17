@@ -12,6 +12,8 @@ public class ModeManager : MonoBehaviour
     public GameObject ModeButton;
     public Transform ModeButtonContainer;
     public Canvas SelectModeCanvas;
+    public Canvas playerCardsCanvas;
+    public Canvas TableCanvas;
 
 
     private void Start()
@@ -41,6 +43,8 @@ public class ModeManager : MonoBehaviour
         Board mode = Instantiate(currentMode.mode);
         mode.players = players;
         SelectModeCanvas.enabled = false;
+        playerCardsCanvas.enabled = true; ;
+        TableCanvas.enabled=true;
         mode.StartNewGame();
     }
 }
