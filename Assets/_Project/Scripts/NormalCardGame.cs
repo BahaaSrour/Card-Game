@@ -8,6 +8,7 @@ public class NormalCardGame : Board
 
     public IRound sequentialRound;
     public ScriptableEvent<Card> OnSelectingCard;
+    public ScriptableEvent<int,Card> OnAnimateCard;
     public ScriptableEvent OnPlayerRecieveCards;
 
     int theLastRoundWinninngPlayer = 0;
@@ -33,7 +34,9 @@ public class NormalCardGame : Board
     int x = 0;
     public void AddCardToTheBoard(Card card)
     {
+
         selectedCards.Add(card);
+        OnAnimateCard.Fire(sequentialRound._currentTurn, card);
         x++;
         if (x % 4 == 0)
         {

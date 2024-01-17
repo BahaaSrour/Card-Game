@@ -4132,6 +4132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cced1207e3d4894187ad591a7680869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnAnimateCard: {fileID: 11400000, guid: 0323b6fa71b2b9b45b941297d9254e28, type: 2}
   sources:
   - {fileID: 208922369}
   - {fileID: 1053029818}
@@ -4142,6 +4143,7 @@ MonoBehaviour:
   - {fileID: 468485176}
   - {fileID: 1330604787}
   - {fileID: 555907791}
+  cardDrawer: []
 --- !u!1 &2036474880
 GameObject:
   m_ObjectHideFlags: 0

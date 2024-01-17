@@ -69,3 +69,35 @@ public class ScriptableEvent<T> : ScriptableObject
         unityAction.Invoke(value);
     }
 }
+public class ScriptableEvent<T,T2> : ScriptableObject
+{
+    public event UnityAction<T,T2> unityAction;
+
+    public void addListener(UnityAction<T,T2> value)
+    {
+        unityAction += value;
+    }
+    public void removeListener(UnityAction<T,T2> value)
+    {
+        try
+        {
+            if (unityAction != null)
+            {
+                unityAction -= value;
+            }
+        }
+        catch
+        {
+            Debug.Log("it hasn't action added ");
+        }
+
+    }
+    public void ClearAction()
+    {
+        unityAction = null;
+    }
+    public void Fire(T value,T2 value2)
+    {
+        unityAction.Invoke(value,value2);
+    }
+}
