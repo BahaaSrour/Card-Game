@@ -28,7 +28,6 @@ public class CardAnimation : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
-
             cardDrawer[i].gameObject.SetActive(false);
         }
 

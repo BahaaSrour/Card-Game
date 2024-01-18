@@ -54,6 +54,8 @@ MonoBehaviour:
   OnAnimateCard: {fileID: 11400000, guid: 0323b6fa71b2b9b45b941297d9254e28, type: 2}
   OnPlayerRecieveCards: {fileID: 11400000, guid: dc0c047515576d845bfb87744b904d98, type: 2}
   OnEndRound: {fileID: 11400000, guid: 2571470809d743d46bd3280e64ba068e, type: 2}
+  OnEndGameSO: {fileID: 11400000, guid: 504cd76ae446a8d4ba968fd813618cae, type: 2}
+  endGameCanvas: {fileID: 0}
 --- !u!114 &1032674895519586206
 MonoBehaviour:
   m_ObjectHideFlags: 0

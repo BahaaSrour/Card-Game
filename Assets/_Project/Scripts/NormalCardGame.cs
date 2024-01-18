@@ -11,6 +11,7 @@ public class NormalCardGame : Board
     public ScriptableEvent<int, Card> OnAnimateCard;
     public ScriptableEvent OnPlayerRecieveCards;
     public ScriptableEvent OnEndRound;
+    public ScriptableEvent<Player[],int> OnEndGameSO;
 
     int theLastRoundWinninngPlayer = 0;
     private void Start()
@@ -31,6 +32,7 @@ public class NormalCardGame : Board
         OnPlayerRecieveCards.Fire();
         sequentialRound.initRound(0);
         players[sequentialRound._currentTurn].StartTurn();
+
     }
     int x = 0;
     public void AddCardToTheBoard(Card card)
@@ -55,12 +57,12 @@ public class NormalCardGame : Board
     {
         yield return new WaitForSeconds(3);
         rounds++;
+        CalculateWinner();
         if (rounds == 13)
         {
             EndGame();
             yield break;
         }
-        CalculateWinner();
         selectedCards.Clear();
         sequentialRound.initRound(theLastRoundWinninngPlayer);
         players[sequentialRound._currentTurn].StartTurn();
@@ -99,11 +101,6 @@ public class NormalCardGame : Board
                 winnerIndex = i;
             }
         }
-        //Debug.Log($"---------Winnnerrrr--- Player {winnerIndex} is the winner `\n` score is {players[winnerIndex].wonRounds}");
-    }
-
-    public void Winner()
-    {
-
+        OnEndGameSO.Fire(players, winnerIndex);
     }
 }
